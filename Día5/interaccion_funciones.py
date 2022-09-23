@@ -1,3 +1,4 @@
+from random import *
 from random import shuffle
 
 # Lista inicial
@@ -13,16 +14,18 @@ def mezclar(lista):
 
 def intento():
     intento = ''
-from random import *
-def lanzar_dados():
-    dado1 = ranint(1,6)
-    dado2 = ranint(1,6)
 
-    return (dado1,dado2)
     while intento not in ['1','2','3','4']:
         intento = input('Escriba un número del 1 al 4: ')
 
     return int(intento)
+
+
+def lanzar_dados():
+    dado1 = randint(1,6)
+    dado2 = randint(1,6)
+
+    return (dado1,dado2)
 
 # Comprobar intento
 
