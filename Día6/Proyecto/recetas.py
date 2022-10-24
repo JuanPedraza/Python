@@ -2,6 +2,9 @@ import os
 from pathlib import Path
 from os import system
 
+#Pendiente recrear el ejercicio
+
+
 mi_ruta = Path(Path.home(),"Documentos","Python","Día6","Proyecto","Recetas")
 #print(mi_ruta)
 
